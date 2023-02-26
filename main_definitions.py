@@ -1,4 +1,4 @@
-# To enable the file to function properly, it is necessary to remove its extension and rename it... cbrwx
+# To enable the file to function properly, it is necessary to remove its extension
 
 import mysql.connector
 from typing import List, Tuple
