@@ -23,7 +23,7 @@ modified_correct_examples, modified_incorrect_examples = md.modify_code_examples
 test_cases = md.get_test_cases(cursor)
 
 # Define a set of tests or use existing test suites to evaluate the generated code
-generated_code = "print('Hello, world!')"
+generated_code = "print('Hello, Ukraine!!')"
 score = md.evaluate_generated_code(generated_code, test_cases)
 if score < 0:
     score = 0
